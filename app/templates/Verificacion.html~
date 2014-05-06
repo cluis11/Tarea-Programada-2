@@ -1,9 +1,0 @@
-{% block content %}
-
-<h1>Agregado</h1>
-<h1>{{ restaurante }} said:</h1>
-<li><a href="{{url_for('home')}}">Menu</a></li>
-
-
-
-{% endblock %}
