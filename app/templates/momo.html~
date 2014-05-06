@@ -1,0 +1,42 @@
+{% block content %}
+<!DOCTYPE html>
+<html Lang="es">
+	<head>  
+		<meta charset='utf-8'>
+		<title>Pagina de restaurante</title>
+		<link rel="stylesheet" href="stylesheet2.css">
+	</head>
+	<body>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1>Restaurantes</h1>
+				</hgroup>
+				<nav>
+					<ul>
+						<li><a href="{{url_for('Insertar')}}">Ingresa</a></li>
+						<li><a href="{{url_for('Consulta')}}">Consultar</a></li>
+						<li>media</li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id='textoPr'>
+					<article>
+					<hgroup> 
+						<h1>Todos los restaurantes que puedas encontrar</h1>
+					</hgroup>
+					<p> Donde encuentras los restaurantes que mas te gusten
+					</p>
+					</article>
+					<aside>
+						<p> hola soy momo</p>
+						<p> el es luigui </p>
+						<p> hola <a href =''> @codigofacilito</a> </p>
+					</aside>
+			</div>
+			</section>		
+		</div>
+	</body>
+</html>
+{% endblock %}

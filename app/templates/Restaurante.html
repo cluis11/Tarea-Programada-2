@@ -1,0 +1,41 @@
+{% block content %}
+<!DOCTYPE html>
+<html Lang="es">
+	<head>  
+		<meta charset='utf-8'>
+		<strong><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></strong>
+		<link rel="stylesheet" href="stylesheet2.css">
+	</head>
+	<body>
+		<a href=""><img src="../static/img/logotipo1.png" class="logo" alt="Simplex : Free HTML Template by Dzyngiri" /></a>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<img src=../static/img/bombur.png align=middle></div>
+				</hgroup>
+			</header>
+			<section>
+				<div id='textoPr'>
+					<hgroup>
+						<h1>Agregar restaurante:</h1>
+					</hgroup>
+					<form method="post" action="{{ url_for('InsertaR') }}" name="Agregar_restaurante">
+					 <p><label> Restaurante: </label> <input type="text" name="restaurante" required></p><br>
+					 <p><label> Tipo de comida: </label> <input type="text" name="tipo_comida" required></p><br>
+					 <p><label> Ubicacion: </label> <input type="text" name="ubicacion" required></p><br>
+					 <p><label> Telefono: </label> <input type="text" name="telefono" required></p><br>
+					 <p><label> Horario: </label> <input type="text" name="horario" required></p><br>
+					 <p><button type="submit">Insertar</button></p>
+					</form>
+					<nav>
+					<ul>
+						<p>Para volver al inicio precione Inicio</p>
+						<li><a href="{{url_for('home')}}">Inicio</a></li>
+					</ul>
+				</nav>
+			</div>
+			</section>		
+		</div>
+	</body>
+</html>
+{% endblock %}

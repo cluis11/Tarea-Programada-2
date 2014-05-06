@@ -1,0 +1,15 @@
+{% block content %}
+
+
+<li>Por</li>
+
+<li><a href="{{url_for('Ingresa_Restaurante')}}">restaurante</a></li>
+
+<li>Por</li>
+
+
+<li><a href="{{url_for('Ingresa_Platillo')}}">platillo</a></li>
+
+<li><a href="{{url_for('home')}}">Menu</a></li>
+
+{% endblock %}

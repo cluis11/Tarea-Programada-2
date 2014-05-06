@@ -1,0 +1,1 @@
+restaurante(kanalu,chatarra,cartago,12345678,diurno)

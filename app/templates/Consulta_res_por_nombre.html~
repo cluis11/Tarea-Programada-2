@@ -1,0 +1,5 @@
+{% block content %}
+<h1>Consulta de los nombres de los restaurantes</h1>
+
+<li><a href="{{url_for('home')}}">Menu</a></li>
+{% endblock %}

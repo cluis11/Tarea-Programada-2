@@ -1,0 +1,25 @@
+{% block content %}
+<strong><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></strong>
+<a href=""><img src="../static/img/logotipo1.png" class="logo" alt="Simplex : Free HTML Template by Dzyngiri" /></a>
+<h1>Las Consultas disponibles son:</h1>
+<img src="http://www.illustrationsof.com/royalty-free-chef-clipart-illustration-1097479.jpg" />
+
+<li><a href="{{url_for('Consulta_de_restaurantes')}}">Lista de restaurantes.</a></li>
+
+<li><a href="{{url_for('Platillos_ingredientes')}}">Consulta de los ingredientes de platillos de un restaurante.</a></li>
+
+<li><a href="{{url_for('Platillos_qTiene_Rest')}}">Platillos de un restaurante</a></li>
+
+<li><a href="{{url_for('Rest_por_Nombres')}}">Buscar restaurantes por nombre</a></li>
+
+<li><a href="{{url_for('Rest_por_Tipo')}}">Sabor de platillos</a></li>
+
+<li><a href="{{url_for('Rest_qTiene_PlatilloPais')}}">Restaurantes con platillos de un pais esfecifico.</a></li>
+
+<h1>Para volver al inicio precione la palabra inicio</h1>
+
+<li><a href="{{url_for('home')}}">Inicio</a></li>
+
+<img src="http://s3.amazonaws.com/theknot.ats.CompanyPhotos/0b9e3075-db81-4e92-95b6-ad3b4bf235f0" />
+
+{% endblock %}

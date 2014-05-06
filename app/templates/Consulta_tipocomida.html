@@ -1,0 +1,12 @@
+{% block content %}
+<strong><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></strong>
+<a href=""><img src="../static/img/logotipo1.png" class="logo" alt="Simplex : Free HTML Template by Dzyngiri" /></a>
+<h1>Consulta del restaurane por tipo de comida</h1>
+<ul>
+{% for n in tipo %}
+<li>{{n}}</li>
+{% endfor %}
+</ul>
+
+<li><a href="{{url_for('home')}}">Inicio</a></li>
+{% endblock %}

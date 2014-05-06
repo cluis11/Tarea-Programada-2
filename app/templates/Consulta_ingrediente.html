@@ -1,0 +1,20 @@
+{% block content %}
+<strong><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></strong>
+<a href=""><img src="../static/img/logotipo1.png" class="logo" alt="Simplex : Free HTML Template by Dzyngiri" /></a>
+<h1>Los resstaurantes que venden el tipo de comida ingresado son:</h1>
+<img src=../static/img/bombur.png align=middle></div>
+<ul>
+{% for n in ingrediente_select %}
+<p>{{n}}</p>
+{% endfor %}
+</ul>
+
+</form>
+	<nav>
+		<ul>
+			<p>Para volver al inicio precione Inicio</p>
+			<li><a href="{{url_for('home')}}">Inicio</a></li>
+			<img src="http://s3.amazonaws.com/theknot.ats.CompanyPhotos/0b9e3075-db81-4e92-95b6-ad3b4bf235f0" />
+		</ul>
+	</nav>
+{% endblock %}
