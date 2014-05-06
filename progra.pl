@@ -1,9 +1,0 @@
-restaurante(san_lorenzo,parrillada,quita_avenida).
-restaurante(mcdonals,chatarra,cartago).
-restaurante(el_sapito,tipica,capellades).
-restaurante(burger_king,chatarra,heredia).
-restaurante(tu_casa_cafe,cafeteria,capellades).
-restaurante(mcdonals,chatarra,alajuela).
-restaurante(mcdonals,chatarra,limon).
-restaurante(taco_bell,chatarra,cartago).
-restaurante(eso,eso,eso).
